@@ -1,0 +1,1241 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+}
+
+body {
+    width: 100%;
+}
+
+p {
+    margin: 0px;
+}
+
+.container-grid {
+    width: 84.375%;
+    height: 100%;
+}
+
+
+
+/** ---------------------------- HEADER ---------------------------- **/
+
+
+/* ----------------------------Desktop---------------------------- */
+
+.desktop {
+    background-color: black;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-top{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-top a, .header-top a img {
+    width: 100%;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-menu {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu-links {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.header-top-pesquisa {
+    width: 30%;
+}
+
+.header-top-pesquisa form input{
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.header-localizacao{
+    width: 6.2%;
+}
+
+.header-localizacao a img {
+    width: 100%;
+}
+
+.redes-sociais-header-img {
+    width: 16.1%;
+}
+
+#redes-sociais-header-img {
+    position: relative;
+    bottom: 15px;
+    left: 18px;
+    width: 100%;
+}
+
+
+/* ----------------------------Tablet---------------------------- */
+
+.tablets {
+    display: none;
+}
+
+
+/* ----------------------------Smartphone---------------------------- */
+
+.smartphone {
+    display: none;
+}
+
+
+
+/* ---------------------------- Perguntas Frequentes ---------------------------- */
+
+
+
+/* ----------------------------Desktop---------------------------- */
+
+.duvidas-desktop {
+    display: flex;
+    justify-content: center;
+}
+
+.duvidas-caixa-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.duvidas-titulo-desktop {
+    font-family: 'Roboto';
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.duvidas-lista-caixa-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    border-radius: 40px;
+    background-color: #E5E5E5;
+    margin-bottom: 100px;
+}
+
+.duvidas-lista-titulo-desktop {
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.duvidas-lista-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.duvidas-lista-bloco-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    border: solid;
+    border-width: 3px;
+    border-color: black;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.duvidas-lista-pergunta-desktop {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+}
+
+.duvidas-lista-pergunta-desktop:hover {
+    cursor: pointer;
+    background-color: #E5E5E5;
+}
+
+.duvidas-lista-resposta-desktop {
+    font-family: 'Roboto';
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#resposta1-desktop {
+    display: none;
+    text-align: center;
+}
+
+#resposta2-desktop {
+    display: none;
+    text-align: center;
+}
+
+#resposta3-desktop {
+    display: none;
+    text-align: center;
+}
+
+#resposta4-desktop {
+    display: none;
+    text-align: center;
+}
+
+#resposta5-desktop {
+    display: none;
+    text-align: center;
+}
+
+#resposta6-desktop {
+    display: none;
+    text-align: center;
+}
+
+#resposta7-desktop {
+    display: none;
+    text-align: center;
+}
+
+#resposta8-desktop {
+    display: none;
+    text-align: center;
+}
+
+#resposta9-desktop {
+    display: none;
+    text-align: center;
+}
+
+#resposta10-desktop {
+    display: none;
+    text-align: center;
+}
+
+#resposta11-desktop {
+    display: none;
+    text-align: center;
+}
+
+.duvidas-lista-atendimento-desktop {
+    font-family: 'Roboto';
+    font-size: 18px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+/* ----------------------------Tablet---------------------------- */
+
+.duvidas-tablet {
+    display: none;
+}
+
+
+/* ----------------------------Smartphone---------------------------- */
+
+.duvidas-smartphone {
+    display: none;
+}
+
+
+/** ---------------------------- FOOTER ---------------------------- **/
+
+
+/* ----------------------------Desktop---------------------------- */
+
+
+.rodape-desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.rodape-caixa {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.rodape-esquerda {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape-esquerda-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape-esquerda-logo {
+    width: 100%;
+}
+
+.rodape-esquerda-logo img {
+    width: 49.2%;
+}
+
+.rodape-esquerda-links-lista {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+
+.rodape-esquerda-links-lista li a{
+    text-decoration: none;
+    color: white;
+    line-height: 25px;
+}
+
+.rodape-direita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rodape-direita-redes-sociais {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: white;
+    background-color: black;
+}
+
+.rodape-direita-redes-sociais-texto {
+    font-family: 'Roboto';
+    font-size: 25px;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.rodape-direita-redes-sociais img {
+    width: auto;
+    height: auto;
+    max-width: 190px;
+    max-height: 50px;
+}
+
+.rodape-direita-cartoes img {
+    width: 100%;
+}
+
+
+/* ----------------------------Tablet---------------------------- */
+
+.rodape-tablet {
+    display: none;
+}
+
+
+/* ----------------------------Smartphone---------------------------- */
+
+.rodape-smartphone {
+    display: none;
+}
+
+
+/**---------------------------- MEDIA QUERY ---------------------------- **/
+
+@media screen and (min-width: 936px) and (max-width: 1100px){
+
+    /**  ----------------------------Header----------------------------  **/
+
+
+    .header-top {
+      width: 35%;
+    }
+    .header-menu-links {
+      font-size: 20px;
+    }
+
+    .header-menu-carrinho {
+      position: relative;
+      left: 5px;
+    }
+    header{
+      height: 200px;
+    }
+    
+    .header-top-pesquisa form input{
+      font-size: 15px;
+      height: 35px;
+    }
+
+
+    /** ----------------------------Footer---------------------------- **/
+
+
+    .rodape-esquerda-links-lista {
+        font-size: 13px;
+    }
+  
+    .rodape-direita {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    
+  
+    .rodape-direita-redes-sociais-texto {
+        font-size: 17px;
+    }
+  
+    .rodape-direita-cartoes {
+        display: flex;
+        justify-content: flex-end;
+    }
+  
+    .rodape-direita-redes-sociais {
+        height: 60%;
+        width: 80%;
+    }
+  
+    .rodape-direita-redes-sociais img {
+        width: auto;
+        height: auto;
+        max-width: 150px;
+        max-height: 40px;
+    }
+    
+      .rodape-direita-cartoes img {
+        width: 80%;
+    }
+}
+
+
+
+@media screen and (min-width: 576px) and (max-width: 936px) {
+
+    /** ----------------------------Header Tablet---------------------------- **/
+
+    .tablets {
+        background-color: black;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container-grid {
+        width: 84.375%;
+        height: 100%;
+    }
+    
+    .header-tablet {
+        height: 100%;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .header-logo-tablet{
+        width: 35%;
+    }
+    
+    .header-logo-tablet a img{
+        width: 100%;
+    }
+    
+    .header-pesquisa-tablet {
+        width: 50%;
+        height: 35%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .header-pesquisa-tablet form{
+        width: 90%;
+        height: 100%;
+    }
+    
+    .header-pesquisa-tablet form input{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .header-menu-tablet {
+        height: 40%;
+    }
+    
+    .header-menu-tablet img {
+        width: 80%;
+        position: relative;
+        top: 5px;
+    }
+    
+    .header-nav-tablet{
+        display: none;
+        height: 300px;
+        width: 100vw;
+        background-color: black;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        position: absolute;
+        top: 150px;
+        left: 0px;
+        z-index: 2;
+    }
+    
+    .header-nav-tablet a {
+        text-decoration: none;
+        text-transform: capitalize;
+        font-family: 'Roboto';
+        font-size: 18px;
+        color: white;
+    }
+
+    /** ----------------------------Desktop---------------------------- **/
+
+    .desktop {
+        display: none;
+    }
+
+    /** ----------------------------Smartphone---------------------------- **/
+
+    .smartphone {
+        display: none;
+    }
+
+
+
+    /** ----------------------------Perguntas Frequentes Tablet---------------------------- **/
+
+    .duvidas-tablet {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .duvidas-caixa-tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .duvidas-titulo-tablet {
+        font-family: 'Roboto';
+        font-size: 45px;
+        font-weight: 800;
+        text-transform: uppercase;
+        text-decoration: underline;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    
+    .duvidas-lista-caixa-tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        border-radius: 40px;
+        background-color: #E5E5E5;
+        margin-bottom: 100px;
+    }
+    
+    .duvidas-lista-titulo-tablet {
+        font-family: 'Roboto';
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 30px;
+        margin-top: 40px;
+    }
+    
+    .duvidas-lista-tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .duvidas-lista-bloco-tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        border: solid;
+        border-width: 3px;
+        border-color: black;
+        background-color: white;
+        margin-bottom: 30px;
+    }
+    
+    .duvidas-lista-pergunta-tablet {
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 700;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .duvidas-lista-pergunta-tablet:hover {
+        cursor: pointer;
+        background-color: #E5E5E5;
+    }
+    
+    .duvidas-lista-resposta-tablet {
+        font-family: 'Roboto';
+        font-size: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    #resposta1-tablet {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta2-tablet {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta3-tablet {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta4-tablet {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta5-tablet {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta6-tablet {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta7-tablet {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta8-tablet {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta9-tablet {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta10-tablet {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta11-tablet {
+        display: none;
+        text-align: center;
+    }
+    
+    .duvidas-lista-atendimento-tablet {
+        font-family: 'Roboto';
+        font-size: 16px;
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    
+    /* ----------------------------Desktop---------------------------- */
+
+    .duvidas-desktop {
+        display: none;
+    }
+
+
+    /* ----------------------------Smartphone---------------------------- */
+
+    .duvidas-smartphone {
+        display: none;
+    }
+
+
+
+    /** ----------------------------Footer Tablet---------------------------- **/
+    
+    .rodape-tablet {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .rodape-secao-tablet {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .rodape-links-tablet {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .rodape-links-listas-tablet {
+        font-family: 'Roboto';
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        text-transform: capitalize;
+        padding-top: 50px;
+        line-height: 35px;
+    }
+    
+    .rodapes-ancoras-tablet{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .rodape-imagens-tablet {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 15px;
+        padding-bottom: 40px;
+    }
+    
+    .rodape-imagens-redes-sociais-tablet {
+        height: 190px;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 10px;
+        border-color: white;
+        background-color: black;
+    }
+    
+    .rodape-imagens-redes-sociais-tablet {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .rodape-imagens-redes-sociais-texto-tablet {
+        color: white;
+        font-family: 'Roboto';
+        font-size: 20px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    
+    .rodape-redes-sociais-imagem-tablet img {
+        width: 100%;
+    }
+    
+    .rodape-imagens-cartoes {
+        width: 50%;
+    }
+    
+    .rodape-logo-tablet {
+        width: 50%;
+        padding-bottom: 20px;
+    }
+    
+    /** ----------------------------Desktop---------------------------- **/
+    
+    .rodape-desktop {
+        display: none;
+    }
+    
+    /** ----------------------------Smartphone---------------------------- **/
+
+    .rodape-smartphone {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+    /** ----------------------------Header Smartphone---------------------------- **/
+
+    .smartphone {
+        background-color: black;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    
+    .header-smartphone {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .header-logo-smartphone {
+        width: 40%;
+    }
+    
+    .header-logo-smartphone a img, .header-pesquisa-smartphone a img, .header-menu-smartphone a img {
+        width: 100%;
+    }
+
+    .form-pesquisa-smartphone {
+        display: none;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        width: 100vw;
+        background-color: black;
+        justify-content: center;
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        z-index: 2;
+    }
+
+    .formulario-smartphone {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #input-pesquisa-smartphone {
+        font-family: 'Roboto';
+        text-align: center;
+        width: 80%;
+    }
+
+    #botao-pesquisa-smartphone {
+        display:none;
+    }
+
+    .header-menu-img-smartphone {
+        width: 80%;
+    }
+    
+    .header-pesquisa-smartphone {
+        width: 13%;
+    }
+    
+    .header-menu-smartphone {
+        width: 13%;
+    }
+    
+    .header-nav-smartphone{
+        display: none;
+        height: 300px;
+        width: 100vw;
+        background-color: black;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        z-index: 2;
+    }
+    
+    .header-nav-smartphone a {
+        text-decoration: none;
+        text-transform: capitalize;
+        font-family: 'Roboto';
+        font-size: 18px;
+        color: white;
+    }
+
+    /** ----------------------------Desktop---------------------------- **/
+    
+    .desktop {
+        display: none;
+    }
+    
+    /** ----------------------------tablet---------------------------- **/
+
+    .tablets {
+        display: none;
+    }
+
+
+    /** ----------------------------Perguntas Frequentes Smartphone---------------------------- **/
+
+    .duvidas-smartphone {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .duvidas-caixa-smartphone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .duvidas-titulo-smartphone {
+        font-family: 'Roboto';
+        font-size: 35px;
+        font-weight: 800;
+        text-transform: uppercase;
+        text-decoration: underline;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    
+    .duvidas-lista-caixa-smartphone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        border-radius: 40px;
+        background-color: #E5E5E5;
+        margin-bottom: 100px;
+    }
+    
+    .duvidas-lista-titulo-smartphone {
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 30px;
+        margin-top: 40px;
+    }
+    
+    .duvidas-lista-smartphone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .duvidas-lista-bloco-smartphone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        border: solid;
+        border-width: 3px;
+        border-color: black;
+        background-color: white;
+        margin-bottom: 30px;
+    }
+    
+    .duvidas-lista-pergunta-smartphone {
+        font-family: 'Roboto';
+        font-size: 15px;
+        font-weight: 700;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .duvidas-lista-pergunta-smartphone:hover {
+        cursor: pointer;
+        background-color: #E5E5E5;
+    }
+    
+    .duvidas-lista-resposta-smartphone {
+        font-family: 'Roboto';
+        font-size: 13px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    #resposta1-smartphone {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta2-smartphone {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta3-smartphone {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta4-smartphone {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta5-smartphone {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta6-smartphone {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta7-smartphone {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta8-smartphone {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta9-smartphone {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta10-smartphone {
+        display: none;
+        text-align: center;
+    }
+    
+    #resposta11-smartphone {
+        display: none;
+        text-align: center;
+    }
+    
+    .duvidas-lista-atendimento-smartphone {
+        font-family: 'Roboto';
+        font-size: 14px;
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    /** ----------------------------Desktop---------------------------- **/
+        
+    .duvidas-desktop {
+        display: none;
+    }
+
+    /** ----------------------------tablet---------------------------- **/
+
+    .duvidas-tablet {
+        display: none;
+    }
+
+
+    /** ----------------------------Rodape Smartphone---------------------------- **/
+
+
+    .rodape-smartphone {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rodape-caixa-smartphone {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .rodape-cartoes-smartphone {
+        width: 40%;
+        padding-bottom: 30px;
+    }
+
+    .rodape-links-smartphone {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .rodape-links-smartphone a {
+        font-family: 'Roboto';
+        font-size: 17px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .rodape-redes-sociais-smartphone {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 150px;
+        padding-bottom: 30px;
+    }
+
+    .rodape-redes-sociais-smartphone p {
+        font-family: 'Roboto';
+        font-size: 17px;
+        color: white;
+    }
+
+    .rodape-redes-sociais-smartphone img {
+        width: 30%;
+    }
+
+    .rodape-logo-smartphone {
+        width: 60%;
+    }
+
+    /** ----------------------------Desktop---------------------------- **/
+    
+    .rodape-desktop {
+        display: none;
+    }
+    
+    /** ----------------------------tablet---------------------------- **/
+
+    .rodape-tablet {
+        display: none;
+    }
+
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+
+
+    /** ----------------------------Rodape Smartphone---------------------------- **/
+
+    .rodape-smartphone {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rodape-caixa-smartphone {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .rodape-cartoes-smartphone {
+        width: 40%;
+        padding-bottom: 30px;
+    }
+
+    .rodape-links-smartphone {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 30px;
+        padding-left: 0px;
+    }
+
+    .rodape-links-smartphone a {
+        font-family: 'Roboto';
+        font-size: 12px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .rodape-redes-sociais-smartphone {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 150px;
+        padding-bottom: 30px;
+    }
+
+    .rodape-redes-sociais-smartphone p {
+        font-family: 'Roboto';
+        font-size: 12px;
+        color: white;
+    }
+
+    .rodape-redes-sociais-smartphone img {
+        width: 30%;
+    }
+
+    .rodape-logo-smartphone {
+        width: 60%;
+    }
+
+}

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quem Somos</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/quem-somos.css">
+    </head>
+    <body>
+
+        <!-- -------------------------HEADER------------------------- -->
+
+
+        <!-- Desktop -->
+
+        <header class="desktop">
+            <div class="container-grid">
+                <div class="header">
+                    <div class="header-top">
+                        <a href="index.html"> <img class="logo" alt="Imagem do logo da game mania" src="img/Logo.png"> </a>
+                    </div>
+                    <div class="header-top-pesquisa">
+                        <form>
+                            <input type="text" placeholder="O que você procura hoje?">
+                        </form>
+                    </div>
+                    <div class="header-localizacao">
+                        <a href="https:google.com"> <img src="img/Localização.png" alt="Localização da loja"> </a>
+                    </div>
+                    <div class="redes-sociais-header-img">
+                        <img id="redes-sociais-header-img" src="img/Redes Sociais Header.svg" alt="Redes sociais">
+                    </div>
+                                
+                    
+                </div>
+                <div class="header-nav">    
+                    <nav class="header-menu">
+                        <a class="header-menu-links" href="">categorias</a>
+                        <a class="header-menu-links" href="atendimento.html">atendimento</a>
+                        <a class="header-menu-links" href="">favoritos</a>
+                        <a class="header-menu-links" href=""> <img src="img/Carrinho de compras.png" alt="Carrinho de compras"> </a>
+                        <a class="header-menu-links header-menu-login" href="login.html">login</a>          
+                    </nav>
+                </div>
+            </div>         
+        </header>
+
+        <!-- Tablet -->
+
+        <header class="tablets">
+            <div class="container-grid">
+                <div class="header-tablet">
+                    <div class="header-logo-tablet">
+                        <a href="index.html"> <img src="img/Logo Tablet.png" alt="Logo game mania"> </a>
+                    </div>
+                    <div class="header-pesquisa-tablet">
+                        <form>
+                            <input type="text" placeholder="O que você procura hoje?">
+                        </form>
+                    </div>
+                    <nav class="header-nav-tablet">
+                        <a class="header-nav-links-tablet" href="">categorias</a>
+                        <a class="header-nav-links-tablet" href="atendimento.html">atendimento</a>
+                        <a class="header-nav-links-tablet" href="">favoritos</a>
+                        <a class="header-nav-links-tablet" href="">carrinho</a>
+                        <a class="header-nav-links-tablet" href="login.html">login</a>          
+                    </nav>
+                    <div class="header-menu-tablet">
+                        <img src="img/Menu Hamburguer Tablet.png" alt="icone do menu" onclick="mostrarNavTablet()">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Smartphone -->
+
+        <header class="smartphone">
+            <div class="container-grid">
+                <div class="header-smartphone">
+                    <div class="header-logo-smartphone">
+                        <a href="index.html"> <img src="img/Logo Header Smartphone.png" alt="Logo game mania"> </a>
+                    </div>
+
+                    <div class="header-pesquisa-smartphone">
+                        <a onclick="mostrarBarraPesquisaSmartphone()" class="header-pesquisa-lupa-smartphone" href="#"><img src="img/Lupa Pesquisa Smartphone.png" alt="lupa de pesquisa"></a>
+                    </div>
+
+                    <div class="form-pesquisa-smartphone">
+                        <form class="formulario-smartphone" action="">
+                            <input id="input-pesquisa-smartphone" type="text" placeholder="O que você procura hoje?" required>
+                            <button id="botao-pesquisa-smartphone" onclick="pegarPesquisaSmartphone()">pesquisar</button>
+                        </form>
+                    </div>
+                    
+                    <nav class="header-nav-smartphone">
+                        <a class="header-nav-links-smartphone" href="">categorias</a>
+                        <a class="header-nav-links-smartphone" href="atendimento.html">atendimento</a>
+                        <a class="header-nav-links-smartphone" href="">favoritos</a>
+                        <a class="header-nav-links-smartphone" href="">carrinho</a>
+                        <a class="header-nav-links-smartphone" href="login.html">login</a>          
+                    </nav>
+                    <div class="header-menu-smartphone">
+                        <img class="header-menu-img-smartphone" src="img/Menu Header Smartphone.png" 
+                        alt="icone do menu" onclick="mostrarNavSmartphone()">
+                        
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        
+
+
+        <!-- Desktop -->
+
+
+        <section class="quem-somos-desktop">
+            <div class="container-grid quem-somos-caixa-desktop">
+                <h1 class="quem-somos-titulo-desktop">quem somos</h1>
+                <p class="quem-somos-texto-desktop">
+                    A nossa missão é inspirar e valorizar a paixão pela tecnologia, jogos, conteúdos, <br>
+                    entretenimento e inovação, causando uma emoção inédita, criando experiências <br>
+                    e prazeres. A visão da empresa é de ampliar o público-alvo e as nossas ações no <br>
+                    mundo gamer e tecnológico. Já os valores envolvem, ética, inovação, respeito aos <br>
+                    clientes, respeito à lei.
+                </p>
+                <p class="quem-somos-texto-desktop">
+                    Nós, a equipe Game Mania, acreditamos que nosso diferencial é a paixão pelo <br>
+                    mundo Gamer e tecnológico, sendo nós mesmo os primeiros consumidores <br>
+                    de nossos próprios produtos, o que nos ajuda a entender o que você procura. <br>
+                </p>
+                <p class="quem-somos-texto-desktop">
+                    Atendemos diariamente pessoas de todas as idades e com as mais diversas <br>
+                    demandas: produtos acessórios, celulares, vídeo-games, jogos, computadores <br>
+                    prontos ou que podem ser montados de acordo com a sua escolha, seja para <br>
+                    estudo e trabalho seja para jogos, entre outras possibilidades. <br>
+                </p>
+                <p class="quem-somos-texto-desktop">
+                    Você pode encontrar o excelente feedback de nossos serviços e produtos <br>
+                    vindos de clientes nas nossas redes sociais, nas quais estamos sempre <br>
+                    dispostos a esclarer a suas dúvidas, auxiliar escolhas dentro de nosso site <br> 
+                    e compartilhar nossa visão desse mundo virtual em expansão, rumo ao futuro. <br>
+                </p>
+                <img class="quem-somos-img-desktop" src="img/quem-somos/Equipe Game Mania Desktop.png" alt="Equipe Game Mania">
+            </div>
+
+        </section>
+
+
+        <!-- Tablet -->
+
+
+        <section class="quem-somos-tablet">
+            <div class="container-grid quem-somos-caixa-tablet">
+                <h1 class="quem-somos-titulo-tablet">quem somos</h1>
+                <p class="quem-somos-texto-tablet">
+                    A nossa missão é inspirar e valorizar a paixão pela tecnologia, jogos, conteúdos, <br>
+                    entretenimento e inovação, causando uma emoção inédita, criando experiências <br>
+                    e prazeres. A visão da empresa é de ampliar o público-alvo e as nossas ações no <br>
+                    mundo gamer e tecnológico. Já os valores envolvem, ética, inovação, respeito aos <br>
+                    clientes, respeito à lei.
+                </p>
+                <p class="quem-somos-texto-tablet">
+                    Nós, a equipe Game Mania, acreditamos que nosso diferencial é a paixão pelo <br>
+                    mundo Gamer e tecnológico, sendo nós mesmo os primeiros consumidores <br>
+                    de nossos próprios produtos, o que nos ajuda a entender o que você procura. <br>
+                </p>
+                <p class="quem-somos-texto-tablet">
+                    Atendemos diariamente pessoas de todas as idades e com as mais diversas <br>
+                    demandas: produtos acessórios, celulares, vídeo-games, jogos, computadores <br>
+                    prontos ou que podem ser montados de acordo com a sua escolha, seja para <br>
+                    estudo e trabalho seja para jogos, entre outras possibilidades. <br>
+                </p>
+                <p class="quem-somos-texto-tablet">
+                    Você pode encontrar o excelente feedback de nossos serviços e produtos <br>
+                    vindos de clientes nas nossas redes sociais, nas quais estamos sempre <br>
+                    dispostos a esclarer a suas dúvidas, auxiliar escolhas dentro de nosso site <br> 
+                    e compartilhar nossa visão desse mundo virtual em expansão, rumo ao futuro. <br>
+                </p>
+                <img class="quem-somos-img-tablet" src="img/quem-somos/Equipe Game Mania Desktop.png" alt="Equipe Game Mania">
+            </div>
+
+        </section>
+
+
+
+
+        <!-- Smartphone -->
+
+
+        <section class="quem-somos-smartphone">
+            <div class="container-grid quem-somos-caixa-smartphone">
+                <h1 class="quem-somos-titulo-smartphone">quem somos</h1>
+                <p class="quem-somos-texto-smartphone">
+                    A nossa missão é inspirar e valorizar a <br> paixão pela tecnologia, jogos, conteúdos, <br>
+                    entretenimento e inovação, causando uma <br> emoção inédita, criando experiências <br>
+                    e prazeres. A visão da empresa é de ampliar <br> o público-alvo e as nossas ações no <br>
+                    mundo gamer e tecnológico. Já os valores <br> envolvem, ética, inovação, respeito aos <br>
+                    clientes, respeito à lei.
+                </p>
+                <p class="quem-somos-texto-smartphone">
+                    Nós, a equipe Game Mania, acreditamos que <br> nosso diferencial é a paixão pelo <br>
+                    mundo Gamer e tecnológico, sendo nós mesmo <br> os primeiros consumidores <br>
+                    de nossos próprios produtos, o que nos <br> ajuda a entender o que você procura. <br>
+                </p>
+                <p class="quem-somos-texto-smartphone">
+                    Atendemos diariamente pessoas de todas as <br> idades e com as mais diversas <br>
+                    demandas: produtos acessórios, celulares, <br> vídeo-games, jogos, computadores <br>
+                    prontos ou que podem ser montados de acordo <br> com a sua escolha, seja para <br>
+                    estudo e trabalho seja para jogos, entre <br> outras possibilidades. <br>
+                </p>
+                <p class="quem-somos-texto-smartphone">
+                    Você pode encontrar o excelente feedback <br> de nossos serviços e produtos <br>
+                    vindos de clientes nas nossas redes <br> sociais, nas quais estamos sempre <br>
+                    dispostos a esclarer a suas dúvidas, <br> auxiliar escolhas dentro de nosso site <br> 
+                    e compartilhar nossa visão desse mundo <br>smartphonel em expansão, rumo ao futuro. <br>
+                </p>
+                <img class="quem-somos-img-smartphone" src="img/quem-somos/Equipe Game Mania Desktop.png" alt="Equipe Game Mania">
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+        <!-- -------------------------FOOTER------------------------- -->
+
+
+        <!-- Desktop -->
+
+        <footer class="rodape-desktop">
+            <div class="container-grid">
+                <div class="rodape-caixa">
+                    <div class="rodape-esquerda">
+                        <div class="rodape-esquerda-links">
+                            <div class="rodape-esquerda-links-institucional">
+                                <ul class="rodape-esquerda-links-lista"> <strong>Institucional</strong> <br><br>
+                                    <li> <a href="quem-somos.html">quem somos</a> </li> 
+                                    <li> <a href="">segurança e privacidade</a> </li> 
+                                    <li> <a href="">nosso parceiros</a> </li> 
+                                    <li> <a href="atendimento.html">fale conosco</a> </li>
+                                </ul>
+                            </div>
+                            <div class="rodape-esquerda-links-informacoes">
+                                <ul class="rodape-esquerda-links-lista"> <strong>Informações</strong> <br><br>
+                                    <li> <a href="">rastrear pedidos</a> </li> 
+                                    <li> <a href="">devoluções</a> </li> 
+                                    <li> <a href="">frete</a> </li> 
+                                    <li> <a href="duvidas.html">dúvidas</a> </li>
+                                </ul>
+                            </div>
+                            <div class="rodape-esquerda-links-atendimento">
+                                <ul class="rodape-esquerda-links-lista"> <strong>Atendimento</strong> <br><br>
+                                    <li> Telefone: <br> (xx) xxxx-xxxx </li> 
+                                    <li> WhatsApp: <br> (xx) xxxxx-xxxx </li> 
+                                    <li> Email: <br> gamemania@email.com </li> 
+                                    <li> Funcionamento: <br> todo dia: 8h-18h <br> feriados: 8h-12h </li> 
+                                    <li> Localização: <br> Rua X número Y </li>
+                                    <li> CEP: <br> XXXXXXX-XXX </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="rodape-esquerda-logo">
+                            <img src="img/Logo.png" alt="logo da game mania">
+                        </div>
+
+                    </div>
+                    <div class="rodape-direita">
+                        <div class="rodape-direita-redes-sociais">
+                            <p class="rodape-direita-redes-sociais-texto">acompanhe-nos nas <br> redes sociais</p>
+                            <img src="img/Redes Sociais Rodape.svg" alt="">
+                        </div>
+                        <div class="rodape-direita-cartoes">
+                            <img src="img/Cartoes.png" alt="cartões que aceitamos">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Tablet -->
+
+        <footer class="rodape-tablet">
+            <div class="container-grid">
+                <div class="rodape-secao-tablet">
+                    <div class="rodape-links-tablet">
+                        <div class="rodape-links-esquerda-tablet">
+                            <ul class="rodape-links-listas-tablet"> <strong>Institucional</strong> <br><br>
+                            <li> <a class="rodapes-ancoras-tablet" href="quem-somos.html">quem somos</a> </li> 
+                            <li> <a class="rodapes-ancoras-tablet" href="">segurança e privacidade</a> </li> 
+                            <li> <a class="rodapes-ancoras-tablet" href="">nosso parceiros</a> </li> 
+                            <li> <a class="rodapes-ancoras-tablet" href="atendimento.html">fale conosco</a> </li>
+                        </div>
+                        
+                        <div class="rodape-links-direita-tablet">
+                            <ul class="rodape-links-listas-tablet"> <strong>Informações</strong> <br><br>
+                            <li> <a class="rodapes-ancoras-tablet" href="">rastrear pedidos</a> </li> 
+                            <li> <a class="rodapes-ancoras-tablet" href="">devoluções</a> </li> 
+                            <li> <a class="rodapes-ancoras-tablet" href="">fretes</a> </li> 
+                            <li> <a class="rodapes-ancoras-tablet" href="duvidas.html">dúvidas</a> </li>
+                        </div>
+                        
+                    </div>
+                    <div class="rodape-imagens-tablet">
+                        <div class="rodape-imagens-redes-sociais-tablet">
+                            <p class="rodape-imagens-redes-sociais-texto-tablet">acompanhe-nos nas <br> redes sociais</p>
+                            <div class="rodape-redes-sociais-imagem-tablet">
+                                <img src="img/Redes Sociais Rodape.svg" alt="redes sociais: facebook, instagram, youtube">
+                            </div>
+                        </div>
+                        <img class="rodape-imagens-cartoes" src="img/Cartoes Rodape tablet.png" alt="Cartões que aceitamos">
+    
+                    </div>
+                    <img class="rodape-logo-tablet" src="img/Logo Rodape Tablet.png" alt="logo game mania">
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- Smartphone -->
+
+
+        <footer class="rodape-smartphone">
+            <div class="container-grid">
+                <div class="rodape-caixa-smartphone">
+                    <img class="rodape-cartoes-smartphone" src="img/Cartoes Rodape Smartphone.png" alt="Cartões que aceitamos">
+                    <ul class="rodape-links-smartphone">
+                        <a href="">Institucional</a>
+                        <a href="">Informações</a>
+                        <a href="">Fretes</a>
+                        <a href="duvidas.html">Dúvidas</a>
+                    </ul>
+                    <div class="rodape-redes-sociais-smartphone">
+                        <p>Redes Sociais</p>
+                        <img src="img/Redes Sociais Rodape Smartphone.png" alt="Redes Sociais">
+                    </div>
+                    <img class="rodape-logo-smartphone" src="img/Logo Rodape Smartphone.png" alt="Logo da Game Mania">
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+
+
+        <script src="js/atendimento.js"></script>
+
+
+    </body>
+</html>

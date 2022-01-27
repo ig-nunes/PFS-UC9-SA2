@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FAQ</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/duvidas.css">
+    </head>
+    <body>
+
+        <!-- -------------------------HEADER------------------------- -->
+
+
+        <!-- Desktop -->
+
+        <header class="desktop">
+            <div class="container-grid">
+                <div class="header">
+                    <div class="header-top">
+                        <a href="index.html"> <img class="logo" alt="Imagem do logo da game mania" src="img/Logo.png"> </a>
+                    </div>
+                    <div class="header-top-pesquisa">
+                        <form>
+                            <input type="text" placeholder="O que você procura hoje?">
+                        </form>
+                    </div>
+                    <div class="header-localizacao">
+                        <a href="https:google.com"> <img src="img/Localização.png" alt="Localização da loja"> </a>
+                    </div>
+                    <div class="redes-sociais-header-img">
+                        <img id="redes-sociais-header-img" src="img/Redes Sociais Header.svg" alt="Redes sociais">
+                    </div>
+                                
+                    
+                </div>
+                <div class="header-nav">    
+                    <nav class="header-menu">
+                        <a class="header-menu-links" href="">categorias</a>
+                        <a class="header-menu-links" href="atendimento.html">atendimento</a>
+                        <a class="header-menu-links" href="">favoritos</a>
+                        <a class="header-menu-links" href=""> <img src="img/Carrinho de compras.png" alt="Carrinho de compras"> </a>
+                        <a class="header-menu-links header-menu-login" href="login.html">login</a>          
+                    </nav>
+                </div>
+            </div>         
+        </header>
+
+        <!-- Tablet -->
+
+        <header class="tablets">
+            <div class="container-grid">
+                <div class="header-tablet">
+                    <div class="header-logo-tablet">
+                        <a href="index.html"> <img src="img/Logo Tablet.png" alt="Logo game mania"> </a>
+                    </div>
+                    <div class="header-pesquisa-tablet">
+                        <form>
+                            <input type="text" placeholder="O que você procura hoje?">
+                        </form>
+                    </div>
+                    <nav class="header-nav-tablet">
+                        <a class="header-nav-links-tablet" href="">categorias</a>
+                        <a class="header-nav-links-tablet" href="atendimento.html">atendimento</a>
+                        <a class="header-nav-links-tablet" href="">favoritos</a>
+                        <a class="header-nav-links-tablet" href="">carrinho</a>
+                        <a class="header-nav-links-tablet" href="login.html">login</a>          
+                    </nav>
+                    <div class="header-menu-tablet">
+                        <img src="img/Menu Hamburguer Tablet.png" alt="icone do menu" onclick="mostrarNavTablet()">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Smartphone -->
+
+        <header class="smartphone">
+            <div class="container-grid">
+                <div class="header-smartphone">
+                    <div class="header-logo-smartphone">
+                        <a href="index.html"> <img src="img/Logo Header Smartphone.png" alt="Logo game mania"> </a>
+                    </div>
+
+                    <div class="header-pesquisa-smartphone">
+                        <a onclick="mostrarBarraPesquisaSmartphone()" class="header-pesquisa-lupa-smartphone" href="#"><img src="img/Lupa Pesquisa Smartphone.png" alt="lupa de pesquisa"></a>
+                    </div>
+
+                    <div class="form-pesquisa-smartphone">
+                        <form class="formulario-smartphone" action="">
+                            <input id="input-pesquisa-smartphone" type="text" placeholder="O que você procura hoje?" required>
+                            <button id="botao-pesquisa-smartphone" onclick="pegarPesquisaSmartphone()">pesquisar</button>
+                        </form>
+                    </div>
+                    
+                    <nav class="header-nav-smartphone">
+                        <a class="header-nav-links-smartphone" href="">categorias</a>
+                        <a class="header-nav-links-smartphone" href="atendimento.html">atendimento</a>
+                        <a class="header-nav-links-smartphone" href="">favoritos</a>
+                        <a class="header-nav-links-smartphone" href="">carrinho</a>
+                        <a class="header-nav-links-smartphone" href="login.html">login</a>          
+                    </nav>
+                    <div class="header-menu-smartphone">
+                        <img class="header-menu-img-smartphone" src="img/Menu Header Smartphone.png" 
+                        alt="icone do menu" onclick="mostrarNavSmartphone()">
+                        
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        
+        <!-- -------------------------Perguntas Frequentes------------------------- -->
+
+
+        <!-- Desktop -->
+
+
+        <section class="duvidas-desktop">
+            <div class="container-grid duvidas-caixa-desktop">
+                <h1 class="duvidas-titulo-desktop">faq</h1>
+                <div class="duvidas-lista-caixa-desktop">
+                    <h1 class="duvidas-lista-titulo-desktop">Perguntas Frequentes</h1>
+                    <div class="duvidas-lista-desktop">
+                        <div class="duvidas-lista-bloco-desktop">
+                            <p class="duvidas-lista-pergunta-desktop" id="pergunta1-desktop" onclick="mostrarResposta1Desktop()">
+                                Quais são os produtos com os quais vocês trabalham?
+                            </p>
+                            <p class="duvidas-lista-resposta-desktop" id="resposta1-desktop">
+                                Nós trabalhamos com diversas marcas de dispositivos móveis, notebooks, computadores, consoles 
+                                e jogos em geral, além de acessórios e serviços relacionados aos itens citados. Como exemplo, 
+                                montamos computadores de acordo com a sua demanda, personalizado com as suas preferências.
+                            </p>
+                        </div>
+
+
+                        <div class="duvidas-lista-bloco-desktop">
+                            <p class="duvidas-lista-pergunta-desktop" id="pergunta2-desktop" onclick="mostrarResposta2Desktop()">
+                                Vocês entregam para todo o Brasil?
+                            </p>
+                            <p class="duvidas-lista-resposta-desktop" id="resposta2-desktop">
+                                Sim, entregamos para todo o Brasil, com frete grátis para a cidade de São Paulo.
+                            </p>
+                        </div>
+
+
+                        <div class="duvidas-lista-bloco-desktop">
+                            <p class="duvidas-lista-pergunta-desktop" id="pergunta3-desktop" onclick="mostrarResposta3Desktop()">
+                                Como funciona o frete e o seu preço?
+                            </p>
+                            <p class="duvidas-lista-resposta-desktop" id="resposta3-desktop">
+                                Na hora da finalização do pedido, você pode escolher a forma de entrega de sua preferência. 
+                                Com relação ao preço do frete, você pode calculá-lo durante a compra através do seu CEP 
+                                para os tipos de entregas disponíveis.
+                            </p>
+                        </div>
+
+
+                        <div class="duvidas-lista-bloco-desktop">
+                            <p class="duvidas-lista-pergunta-desktop" id="pergunta4-desktop" onclick="mostrarResposta4Desktop()">
+                                Vocês aceitam quais cartões?
+                            </p>
+                            <p class="duvidas-lista-resposta-desktop" id="resposta4-desktop">
+                                Nós aceitamos todas as bandeiras nacionais, podendo dividir o valor da compra em até dois cartões.
+                            </p>
+                        </div>
+
+                        
+                        <div class="duvidas-lista-bloco-desktop">
+                            <p class="duvidas-lista-pergunta-desktop" id="pergunta5-desktop" onclick="mostrarResposta5Desktop()">
+                                Vocês parcelam em até quantas vezes?
+                            </p>
+                            <p class="duvidas-lista-resposta-desktop" id="resposta5-desktop">
+                                Nós parcelamos em até 10 vezes sem juros e em até 20 com juros.
+                            </p>
+                        </div>
+
+
+                        <div class="duvidas-lista-bloco-desktop">
+                            <p class="duvidas-lista-pergunta-desktop" id="pergunta6-desktop" onclick="mostrarResposta6Desktop()">
+                                Vocês possuem mais de uma loja física?
+                            </p>
+                            <p class="duvidas-lista-resposta-desktop" id="resposta6-desktop">
+                                No momento, nós possuímos apenas uma loja localizada no endereço rua xxx xxxxxxx, número xxx, 
+                                bairro xxxxxxx, cidade São Paulo. Nós estamos com projetos futuros para abrirmos filiais em 
+                                outras cidades de São Paulo, assim como em outros estados.
+                            </p>
+                        </div>
+
+
+                        <div class="duvidas-lista-bloco-desktop">
+                            <p class="duvidas-lista-pergunta-desktop" id="pergunta7-desktop" onclick="mostrarResposta7Desktop()">
+                                Vocês aceitam Paypal?
+                            </p>
+                            <p class="duvidas-lista-resposta-desktop" id="resposta7-desktop">
+                                No momento, não.
+                            </p>
+                        </div>
+
+
+                        <div class="duvidas-lista-bloco-desktop">
+                            <p class="duvidas-lista-pergunta-desktop" id="pergunta8-desktop" onclick="mostrarResposta8Desktop()">
+                                Como funciona a garantia de seus produtos/serviços?
+                            </p>
+                            <p class="duvidas-lista-resposta-desktop" id="resposta8-desktop">
+                                Nós dispomos 1 ano de garantia para todos os produtos e serviços oferecidos que pode ser estendida 
+                                para 2 anos, com o seu valor adicional variando de acordo com o produto/serviço em questão.
+                            </p>
+                        </div>
+
+
+                        <div class="duvidas-lista-bloco-desktop">
+                            <p class="duvidas-lista-pergunta-desktop" id="pergunta9-desktop" onclick="mostrarResposta9Desktop()">
+                                Qual é o horário de funcionamento da loja física?
+                            </p>
+                            <p class="duvidas-lista-resposta-desktop" id="resposta9-desktop">
+                                Funcionamos todo dia, das 8h às 18h e nos feriados, das 8h às 12h.
+                            </p>
+                        </div>
+
+
+                        <div class="duvidas-lista-bloco-desktop">
+                            <p class="duvidas-lista-pergunta-desktop" id="pergunta10-desktop" onclick="mostrarResposta10Desktop()">
+                                Como funciona a política de reembolso?
+                            </p>
+                            <p class="duvidas-lista-resposta-desktop" id="resposta10-desktop">
+                                Caso o produto comprado chegue em sua casa apresentando defeitos ou avarias, você tem 30 dias 
+                                para pedir o dinheiro de volta. Você pode, também, optar por receber outro produto idêntico 
+                                ao pedido, uma vez que você possui 1 ano de garantia para trocas a partir do ato da compra.
+                            </p>
+                        </div>
+
+
+                        <div class="duvidas-lista-bloco-desktop">
+                            <p class="duvidas-lista-pergunta-desktop" id="pergunta11-desktop" onclick="mostrarResposta11Desktop()">
+                                Como funciona os cupons da Game Mania?
+                            </p>
+                            <p class="duvidas-lista-resposta-desktop" id="resposta11-desktop">
+                                Após alguma compra realizada pelo site, você receberá por email um cupom que te dará descontos, 
+                                a depender do valor pago, para ser utilizado na sua próxima compra. Para utilizá-lo, antes de 
+                                finalizar a sua próxima compra, insira o código do cupom na área solicitada. 
+                            </p>
+                        </div>
+
+                        <p class="duvidas-lista-atendimento-desktop">
+                            Ainda tem alguma dúvida? Para entrar em contato com nossa central de atendimento,
+                            <a href="atendimento.html"> clique aqui</a> 
+                        </p>
+                        
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Tablet -->
+
+
+
+        <section class="duvidas-tablet">
+            <div class="container-grid duvidas-caixa-tablet">
+                <h1 class="duvidas-titulo-tablet">faq</h1>
+                <div class="duvidas-lista-caixa-tablet">
+                    <h1 class="duvidas-lista-titulo-tablet">Perguntas Frequentes</h1>
+                    <div class="duvidas-lista-tablet">
+                        <div class="duvidas-lista-bloco-tablet">
+                            <p class="duvidas-lista-pergunta-tablet" id="pergunta1-tablet" onclick="mostrarResposta1Tablet()">
+                                Quais são os produtos com os quais vocês trabalham?
+                            </p>
+                            <p class="duvidas-lista-resposta-tablet" id="resposta1-tablet">
+                                Nós trabalhamos com diversas marcas de dispositivos móveis, notebooks, computadores, consoles 
+                                e jogos em geral, além de acessórios e serviços relacionados aos itens citados. Como exemplo, 
+                                montamos computadores de acordo com a sua demanda, personalizado com as suas preferências.
+                            </p>
+                        </div>
+
+
+                        <div class="duvidas-lista-bloco-tablet">
+                            <p class="duvidas-lista-pergunta-tablet" id="pergunta2-tablet" onclick="mostrarResposta2Tablet()">
+                                Vocês entregam para todo o Brasil?
+                            </p>
+                            <p class="duvidas-lista-resposta-tablet" id="resposta2-tablet">
+                                Sim, entregamos para todo o Brasil, com frete grátis para a cidade de São Paulo.
+                            </p>
+                        </div>
+
+
+                        <div class="duvidas-lista-bloco-tablet">
+                            <p class="duvidas-lista-pergunta-tablet" id="pergunta3-tablet" onclick="mostrarResposta3Tablet()">
+                                Como funciona o frete e o seu preço?
+                            </p>
+                            <p class="duvidas-lista-resposta-tablet" id="resposta3-tablet">
+                                Na hora da finalização do pedido, você pode escolher a forma de entrega de sua preferência. 
+                                Com relação ao preço do frete, você pode calculá-lo durante a compra através do seu CEP 
+                                para os tipos de entregas disponíveis.
+                            </p>
+                        </div>
+
+
+                        <div class="duvidas-lista-bloco-tablet">
+                            <p class="duvidas-lista-pergunta-tablet" id="pergunta4-tablet" onclick="mostrarResposta4Tablet()">
+                                Vocês aceitam quais cartões?
+                            </p>
+                            <p class="duvidas-lista-resposta-tablet" id="resposta4-tablet">
+                                Nós aceitamos todas as bandeiras nacionais, podendo dividir o valor da compra em até dois cartões.
+                            </p>
+                        </div>
+
+                        
+                        <div class="duvidas-lista-bloco-tablet">
+                            <p class="duvidas-lista-pergunta-tablet" id="pergunta5-tablet" onclick="mostrarResposta5Tablet()">
+                                Vocês parcelam em até quantas vezes?
+                            </p>
+                            <p class="duvidas-lista-resposta-tablet" id="resposta5-tablet">
+                                Nós parcelamos em até 10 vezes sem juros e em até 20 com juros.
+                            </p>
+                        </div>
+
+
+                        <div class="duvidas-lista-bloco-tablet">
+                            <p class="duvidas-lista-pergunta-tablet" id="pergunta6-tablet" onclick="mostrarResposta6Tablet()">
+                                Vocês possuem mais de uma loja física?
+                            </p>
+                            <p class="duvidas-lista-resposta-tablet" id="resposta6-tablet">
+                                No momento, nós possuímos apenas uma loja localizada no endereço rua xxx xxxxxxx, número xxx, 
+                                bairro xxxxxxx, cidade São Paulo. Nós estamos com projetos futuros para abrirmos filiais em 
+                                outras cidades de São Paulo, assim como em outros estados.
+                            </p>
+                        </div>
+
+
+                        <div class="duvidas-lista-bloco-tablet">
+                            <p class="duvidas-lista-pergunta-tablet" id="pergunta7-tablet" onclick="mostrarResposta7Tablet()">
+                                Vocês aceitam Paypal?
+                            </p>
+                            <p class="duvidas-lista-resposta-tablet" id="resposta7-tablet">
+                                No momento, não.
+                            </p>
+                        </div>
+
+
+                        <div class="duvidas-lista-bloco-tablet">
+                            <p class="duvidas-lista-pergunta-tablet" id="pergunta8-tablet" onclick="mostrarResposta8Tablet()">
+                                Como funciona a garantia de seus produtos/serviços?
+                            </p>
+                            <p class="duvidas-lista-resposta-tablet" id="resposta8-tablet">
+                                Nós dispomos 1 ano de garantia para todos os produtos e serviços oferecidos que pode ser estendida 
+                                para 2 anos, com o seu valor adicional variando de acordo com o produto/serviço em questão.
+                            </p>
+                        </div>
+
+
+                        <div class="duvidas-lista-bloco-tablet">
+                            <p class="duvidas-lista-pergunta-tablet" id="pergunta9-tablet" onclick="mostrarResposta9Tablet()">
+                                Qual é o horário de funcionamento da loja física?
+                            </p>
+                            <p class="duvidas-lista-resposta-tablet" id="resposta9-tablet">
+                                Funcionamos todo dia, das 8h às 18h e nos feriados, das 8h às 12h.
+                            </p>
+                        </div>
+
+
+                        <div class="duvidas-lista-bloco-tablet">
+                            <p class="duvidas-lista-pergunta-tablet" id="pergunta10-tablet" onclick="mostrarResposta10Tablet()">
+                                Como funciona a política de reembolso?
+                            </p>
+                            <p class="duvidas-lista-resposta-tablet" id="resposta10-tablet">
+                                Caso o produto comprado chegue em sua casa apresentando defeitos ou avarias, você tem 30 dias 
+                                para pedir o dinheiro de volta. Você pode, também, optar por receber outro produto idêntico 
+                                ao pedido, uma vez que você possui 1 ano de garantia para trocas a partir do ato da compra.
+                            </p>
+                        </div>
+
+
+                        <div class="duvidas-lista-bloco-tablet">
+                            <p class="duvidas-lista-pergunta-tablet" id="pergunta11-tablet" onclick="mostrarResposta11Tablet()">
+                                Como funciona os cupons da Game Mania?
+                            </p>
+                            <p class="duvidas-lista-resposta-tablet" id="resposta11-tablet">
+                                Após alguma compra realizada pelo site, você receberá por email um cupom que te dará descontos, 
+                                a depender do valor pago, para ser utilizado na sua próxima compra. Para utilizá-lo, antes de 
+                                finalizar a sua próxima compra, insira o código do cupom na área solicitada. 
+                            </p>
+                        </div>
+
+                        <p class="duvidas-lista-atendimento-tablet">
+                            Ainda tem alguma dúvida? Para entrar em contato com nossa central de atendimento,
+                            <a href="atendimento.html"> clique aqui</a> 
+                        </p>
+                        
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+
+
+        <!-- Smartphone -->
+
+        <section class="duvidas-smartphone">
+            <div class="container-grid duvidas-caixa-smartphone">
+                <h1 class="duvidas-titulo-smartphone">faq</h1>
+                <div class="duvidas-lista-caixa-smartphone">
+                    <h1 class="duvidas-lista-titulo-smartphone">Perguntas Frequentes</h1>
+                    <div class="duvidas-lista-smartphone">
+                        <div class="duvidas-lista-bloco-smartphone">
+                            <p class="duvidas-lista-pergunta-smartphone" id="pergunta1-smartphone" onclick="mostrarResposta1Smartphone()">
+                                Quais são os produtos com os quais vocês trabalham?
+                            </p>
+                            <p class="duvidas-lista-resposta-smartphone" id="resposta1-smartphone">
+                                Nós trabalhamos com diversas marcas de dispositivos móveis, notebooks, computadores, consoles 
+                                e jogos em geral, além de acessórios e serviços relacionados aos itens citados. Como exemplo, 
+                                montamos computadores de acordo com a sua demanda, personalizado com as suas preferências.
+                            </p>
+                        </div>
+
+
+                        <div class="duvidas-lista-bloco-smartphone">
+                            <p class="duvidas-lista-pergunta-smartphone" id="pergunta2-smartphone" onclick="mostrarResposta2Smartphone()">
+                                Vocês entregam para todo o Brasil?
+                            </p>
+                            <p class="duvidas-lista-resposta-smartphone" id="resposta2-smartphone">
+                                Sim, entregamos para todo o Brasil, com frete grátis para a cidade de São Paulo.
+                            </p>
+                        </div>
+
+
+                        <div class="duvidas-lista-bloco-smartphone">
+                            <p class="duvidas-lista-pergunta-smartphone" id="pergunta3-smartphone" onclick="mostrarResposta3Smartphone()">
+                                Como funciona o frete e o seu preço?
+                            </p>
+                            <p class="duvidas-lista-resposta-smartphone" id="resposta3-smartphone">
+                                Na hora da finalização do pedido, você pode escolher a forma de entrega de sua preferência. 
+                                Com relação ao preço do frete, você pode calculá-lo durante a compra através do seu CEP 
+                                para os tipos de entregas disponíveis.
+                            </p>
+                        </div>
+
+
+                        <div class="duvidas-lista-bloco-smartphone">
+                            <p class="duvidas-lista-pergunta-smartphone" id="pergunta4-smartphone" onclick="mostrarResposta4Smartphone()">
+                                Vocês aceitam quais cartões?
+                            </p>
+                            <p class="duvidas-lista-resposta-smartphone" id="resposta4-smartphone">
+                                Nós aceitamos todas as bandeiras nacionais, podendo dividir o valor da compra em até dois cartões.
+                            </p>
+                        </div>
+
+                        
+                        <div class="duvidas-lista-bloco-smartphone">
+                            <p class="duvidas-lista-pergunta-smartphone" id="pergunta5-smartphone" onclick="mostrarResposta5Smartphone()">
+                                Vocês parcelam em até quantas vezes?
+                            </p>
+                            <p class="duvidas-lista-resposta-smartphone" id="resposta5-smartphone">
+                                Nós parcelamos em até 10 vezes sem juros e em até 20 com juros.
+                            </p>
+                        </div>
+
+
+                        <div class="duvidas-lista-bloco-smartphone">
+                            <p class="duvidas-lista-pergunta-smartphone" id="pergunta6-smartphone" onclick="mostrarResposta6Smartphone()">
+                                Vocês possuem mais de uma loja física?
+                            </p>
+                            <p class="duvidas-lista-resposta-smartphone" id="resposta6-smartphone">
+                                No momento, nós possuímos apenas uma loja localizada no endereço rua xxx xxxxxxx, número xxx, 
+                                bairro xxxxxxx, cidade São Paulo. Nós estamos com projetos futuros para abrirmos filiais em 
+                                outras cidades de São Paulo, assim como em outros estados.
+                            </p>
+                        </div>
+
+
+                        <div class="duvidas-lista-bloco-smartphone">
+                            <p class="duvidas-lista-pergunta-smartphone" id="pergunta7-smartphone" onclick="mostrarResposta7Smartphone()">
+                                Vocês aceitam Paypal?
+                            </p>
+                            <p class="duvidas-lista-resposta-smartphone" id="resposta7-smartphone">
+                                No momento, não.
+                            </p>
+                        </div>
+
+
+                        <div class="duvidas-lista-bloco-smartphone">
+                            <p class="duvidas-lista-pergunta-smartphone" id="pergunta8-smartphone" onclick="mostrarResposta8Smartphone()">
+                                Como funciona a garantia de seus produtos/serviços?
+                            </p>
+                            <p class="duvidas-lista-resposta-smartphone" id="resposta8-smartphone">
+                                Nós dispomos 1 ano de garantia para todos os produtos e serviços oferecidos que pode ser estendida 
+                                para 2 anos, com o seu valor adicional variando de acordo com o produto/serviço em questão.
+                            </p>
+                        </div>
+
+
+                        <div class="duvidas-lista-bloco-smartphone">
+                            <p class="duvidas-lista-pergunta-smartphone" id="pergunta9-smartphone" onclick="mostrarResposta9Smartphone()">
+                                Qual é o horário de funcionamento da loja física?
+                            </p>
+                            <p class="duvidas-lista-resposta-smartphone" id="resposta9-smartphone">
+                                Funcionamos todo dia, das 8h às 18h e nos feriados, das 8h às 12h.
+                            </p>
+                        </div>
+
+
+                        <div class="duvidas-lista-bloco-smartphone">
+                            <p class="duvidas-lista-pergunta-smartphone" id="pergunta10-smartphone" onclick="mostrarResposta10Smartphone()">
+                                Como funciona a política de reembolso?
+                            </p>
+                            <p class="duvidas-lista-resposta-smartphone" id="resposta10-smartphone">
+                                Caso o produto comprado chegue em sua casa apresentando defeitos ou avarias, você tem 30 dias 
+                                para pedir o dinheiro de volta. Você pode, também, optar por receber outro produto idêntico 
+                                ao pedido, uma vez que você possui 1 ano de garantia para trocas a partir do ato da compra.
+                            </p>
+                        </div>
+
+
+                        <div class="duvidas-lista-bloco-smartphone">
+                            <p class="duvidas-lista-pergunta-smartphone" id="pergunta11-smartphone" onclick="mostrarResposta11Smartphone()">
+                                Como funciona os cupons da Game Mania?
+                            </p>
+                            <p class="duvidas-lista-resposta-smartphone" id="resposta11-smartphone">
+                                Após alguma compra realizada pelo site, você receberá por email um cupom que te dará descontos, 
+                                a depender do valor pago, para ser utilizado na sua próxima compra. Para utilizá-lo, antes de 
+                                finalizar a sua próxima compra, insira o código do cupom na área solicitada. 
+                            </p>
+                        </div>
+
+                        <p class="duvidas-lista-atendimento-smartphone">
+                            Ainda tem alguma dúvida? Para entrar em contato com nossa central de atendimento,
+                            <a href="atendimento.html"> clique aqui</a> 
+                        </p>
+                        
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- -------------------------FOOTER------------------------- -->
+
+
+        <!-- Desktop -->
+
+        <footer class="rodape-desktop">
+            <div class="container-grid">
+                <div class="rodape-caixa">
+                    <div class="rodape-esquerda">
+                        <div class="rodape-esquerda-links">
+                            <div class="rodape-esquerda-links-institucional">
+                                <ul class="rodape-esquerda-links-lista"> <strong>Institucional</strong> <br><br>
+                                    <li> <a href="quem-somos.html">quem somos</a> </li> 
+                                    <li> <a href="">segurança e privacidade</a> </li> 
+                                    <li> <a href="">nosso parceiros</a> </li> 
+                                    <li> <a href="atendimento.html">fale conosco</a> </li>
+                                </ul>
+                            </div>
+                            <div class="rodape-esquerda-links-informacoes">
+                                <ul class="rodape-esquerda-links-lista"> <strong>Informações</strong> <br><br>
+                                    <li> <a href="">rastrear pedidos</a> </li> 
+                                    <li> <a href="">devoluções</a> </li> 
+                                    <li> <a href="">frete</a> </li> 
+                                    <li> <a href="duvidas.html">dúvidas</a> </li>
+                                </ul>
+                            </div>
+                            <div class="rodape-esquerda-links-atendimento">
+                                <ul class="rodape-esquerda-links-lista"> <strong>Atendimento</strong> <br><br>
+                                    <li> Telefone: <br> (xx) xxxx-xxxx </li> 
+                                    <li> WhatsApp: <br> (xx) xxxxx-xxxx </li> 
+                                    <li> Email: <br> gamemania@email.com </li> 
+                                    <li> Funcionamento: <br> todo dia: 8h-18h <br> feriados: 8h-12h </li> 
+                                    <li> Localização: <br> Rua X número Y </li>
+                                    <li> CEP: <br> XXXXXXX-XXX </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="rodape-esquerda-logo">
+                            <img src="img/Logo.png" alt="logo da game mania">
+                        </div>
+
+                    </div>
+                    <div class="rodape-direita">
+                        <div class="rodape-direita-redes-sociais">
+                            <p class="rodape-direita-redes-sociais-texto">acompanhe-nos nas <br> redes sociais</p>
+                            <img src="img/Redes Sociais Rodape.svg" alt="">
+                        </div>
+                        <div class="rodape-direita-cartoes">
+                            <img src="img/Cartoes.png" alt="cartões que aceitamos">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Tablet -->
+
+        <footer class="rodape-tablet">
+            <div class="container-grid">
+                <div class="rodape-secao-tablet">
+                    <div class="rodape-links-tablet">
+                        <div class="rodape-links-esquerda-tablet">
+                            <ul class="rodape-links-listas-tablet"> <strong>Institucional</strong> <br><br>
+                            <li> <a class="rodapes-ancoras-tablet" href="quem-somos.html">quem somos</a> </li> 
+                            <li> <a class="rodapes-ancoras-tablet" href="">segurança e privacidade</a> </li> 
+                            <li> <a class="rodapes-ancoras-tablet" href="">nosso parceiros</a> </li> 
+                            <li> <a class="rodapes-ancoras-tablet" href="atendimento.html">fale conosco</a> </li>
+                        </div>
+                        
+                        <div class="rodape-links-direita-tablet">
+                            <ul class="rodape-links-listas-tablet"> <strong>Informações</strong> <br><br>
+                            <li> <a class="rodapes-ancoras-tablet" href="">rastrear pedidos</a> </li> 
+                            <li> <a class="rodapes-ancoras-tablet" href="">devoluções</a> </li> 
+                            <li> <a class="rodapes-ancoras-tablet" href="">fretes</a> </li> 
+                            <li> <a class="rodapes-ancoras-tablet" href="duvidas.html">dúvidas</a> </li>
+                        </div>
+                        
+                    </div>
+                    <div class="rodape-imagens-tablet">
+                        <div class="rodape-imagens-redes-sociais-tablet">
+                            <p class="rodape-imagens-redes-sociais-texto-tablet">acompanhe-nos nas <br> redes sociais</p>
+                            <div class="rodape-redes-sociais-imagem-tablet">
+                                <img src="img/Redes Sociais Rodape.svg" alt="redes sociais: facebook, instagram, youtube">
+                            </div>
+                        </div>
+                        <img class="rodape-imagens-cartoes" src="img/Cartoes Rodape tablet.png" alt="Cartões que aceitamos">
+    
+                    </div>
+                    <img class="rodape-logo-tablet" src="img/Logo Rodape Tablet.png" alt="logo game mania">
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- Smartphone -->
+
+
+        <footer class="rodape-smartphone">
+            <div class="container-grid">
+                <div class="rodape-caixa-smartphone">
+                    <img class="rodape-cartoes-smartphone" src="img/Cartoes Rodape Smartphone.png" alt="Cartões que aceitamos">
+                    <ul class="rodape-links-smartphone">
+                        <a href="">Institucional</a>
+                        <a href="">Informações</a>
+                        <a href="">Fretes</a>
+                        <a href="duvidas.html">Dúvidas</a>
+                    </ul>
+                    <div class="rodape-redes-sociais-smartphone">
+                        <p>Redes Sociais</p>
+                        <img src="img/Redes Sociais Rodape Smartphone.png" alt="Redes Sociais">
+                    </div>
+                    <img class="rodape-logo-smartphone" src="img/Logo Rodape Smartphone.png" alt="Logo da Game Mania">
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+
+
+        <script src="js/duvidas.js"></script>
+
+
+    </body>
+</html>

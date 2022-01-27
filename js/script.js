@@ -1,0 +1,159 @@
+/* --------------Desktop-------------- */
+
+function pegarPesquisaDesktop() {
+    let inputPesquisaDesktop = document.querySelector("#input-pesquisa-desktop").value;
+    console.log(inputPesquisaDesktop);
+}
+
+
+function cadastrarEmailDesktop() {
+    let cadastrarEmailDesktop = document.getElementById('cadastrar-email-desktop').value;
+    console.log(cadastrarEmailDesktop);
+}
+
+
+
+
+
+
+/* --------------Tablet-------------- */
+
+
+// Menu sanduíche com jquery:
+
+
+$( document ).ready(function(){
+    
+    $('#menu-hamburguer-tablet').click(function(){
+        
+        
+        if ( $('#menu-nav-tablet').hasClass('header-nav-tablet-ativo') ) {
+            $('#menu-nav-tablet').removeClass('header-nav-tablet-ativo')
+        }else{
+            $('#menu-nav-tablet').addClass('header-nav-tablet-ativo')
+        }
+        
+    })
+    
+})
+
+
+
+
+
+
+// Menu sanduíche de forma mais simplificada:
+
+// $( document ).ready(function(){
+    
+//     $('#menu-hamburguer-tablet').click(function(){
+        
+//         $('#menu-nav-tablet').toggleClass('header-nav-tablet-ativo')              
+        
+//     })
+    
+// })
+
+
+
+
+
+
+// Menu sanduíche sem jquery:
+
+
+// let navTablet = document.querySelector(".header-nav-tablet");
+
+
+// function mostrarNavTablet() {
+//     if (getComputedStyle(navTablet).display == "none") {
+//         navTablet.style.display = "flex";
+//     }else{
+//         navTablet.style.display = "none";
+//     }
+// }
+
+
+function cadastrarEmailTablet() {
+    let cadastrarEmailTablet = document.getElementById('cadastrar-email-tablet').value;
+    console.log(cadastrarEmailTablet);
+}
+
+
+
+/* --------------Smartphone-------------- */
+
+
+// Menu sanduíche com JQuery:
+
+$( document ).ready(function(){
+    
+    $('#menu-hamburguer-smartphone').click(function(){
+        
+        
+        if ( $('#menu-nav-smartphone').hasClass('header-nav-smartphone-ativo') ) {
+            $('#menu-nav-smartphone').removeClass('header-nav-smartphone-ativo')
+        }else{
+            $('#menu-nav-smartphone').addClass('header-nav-smartphone-ativo')
+        }
+        
+    })
+    
+})
+
+
+
+
+
+
+// Menu sanduíche de forma mais simplificada:
+
+// $( document ).ready(function(){
+    
+//     $('#menu-hamburguer-smartphone').click(function(){
+        
+//         $('#menu-nav-smartphone').toggleClass('header-nav-smartphone-ativo')              
+        
+//     })
+    
+// })
+
+
+
+
+
+
+// Menu sanduíche sem jquery:
+
+// let navSmartphone = document.querySelector(".header-nav-smartphone");
+
+
+// function mostrarNavSmartphone() {
+//     if (getComputedStyle(navSmartphone).display == "none") {
+//         navSmartphone.style.display = "flex";
+//     }else{
+//         navSmartphone.style.display = "none";
+//     }
+// }
+
+let divBarraPesquisaSmartphone = document.querySelector('.form-pesquisa-smartphone');
+
+function mostrarBarraPesquisaSmartphone() {
+    if (getComputedStyle(divBarraPesquisaSmartphone).display == "none") {
+        divBarraPesquisaSmartphone.style.display = "flex";
+    }else{
+        divBarraPesquisaSmartphone.style.display = "none";
+    }
+}
+
+
+function pegarPesquisaSmartphone() {
+    let pegarPesquisaSmartphone = document.getElementById('input-pesquisa-smartphone').value;
+    console.log(pegarPesquisaSmartphone);
+}
+
+
+function cadastrarEmailSmartphone() {
+    let cadastrarEmailSmartphone = document.getElementById('cadastrar-email-smartphone').value;
+    console.log(cadastrarEmailSmartphone);
+}

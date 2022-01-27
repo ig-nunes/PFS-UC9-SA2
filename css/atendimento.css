@@ -1,0 +1,1349 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+}
+
+body {
+    width: 100%;
+}
+
+p {
+    margin: 0px;
+}
+
+.container-grid {
+    width: 84.375%;
+    height: 100%;
+}
+
+
+
+/** ---------------------------- HEADER ---------------------------- **/
+
+
+/* ----------------------------Desktop---------------------------- */
+
+.desktop {
+    background-color: black;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-top{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-top a, .header-top a img {
+    width: 100%;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-menu {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu-links {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.header-top-pesquisa {
+    width: 30%;
+}
+
+.header-top-pesquisa form input{
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.header-localizacao{
+    width: 6.2%;
+}
+
+.header-localizacao a img {
+    width: 100%;
+}
+
+.redes-sociais-header-img {
+    width: 16.1%;
+}
+
+#redes-sociais-header-img {
+    position: relative;
+    bottom: 15px;
+    left: 18px;
+    width: 100%;
+}
+
+
+/* ----------------------------Tablet---------------------------- */
+
+.tablets {
+    display: none;
+}
+
+
+/* ----------------------------Smartphone---------------------------- */
+
+.smartphone {
+    display: none;
+}
+
+
+/* ---------------------------- Atendimento ---------------------------- */
+
+
+/* ----------------------------Desktop---------------------------- */
+
+
+.atendimento-desktop {
+    display: flex;
+    justify-content: center;
+}
+
+.atendimento-caixa-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.atendimento-titulo-desktop {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Roboto';
+    font-weight: 800;
+    text-decoration: underline;
+    text-transform: capitalize;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.atendimento-contatos-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #E5E5E5;
+    width: 80%;
+    border-radius: 40px;
+    margin-bottom: 60px;
+}
+
+.atendimento-contatos-titulo-desktop {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.atendimento-contatos-item-desktop {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.atendimento-contatos-ultimo-item-desktop {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.atendimento-formulario-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #E5E5E5;
+    width: 60%;
+    border-radius: 40px;
+    margin-bottom: 60px;
+}
+
+.atendimento-formulario-titulo-desktop {
+    font-family: 'Roboto';
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.atendimento-formulario-texto-desktop {
+    font-family: 'Roboto';
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.atendimento-form-desktop {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.atendimento-form-caixa-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.atendimento-nome-completo-desktop {
+    display: block;
+    justify-content: center;
+    width: 60%;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+.atendimento-duvida-desktop {
+    height: 200px;
+}
+
+#atendimento-formulario-enviar-desktop {
+    width: 60%;
+    margin-bottom: 50px;
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+
+
+.atendimento-redes-sociais-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #E5E5E5;
+    width: 60%;
+    border-radius: 40px;
+    margin-bottom: 150px;
+}
+
+.atendimento-redes-sociais-titulo-desktop {
+    font-family: 'Roboto';
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.atendimento-redes-sociais-texto-desktop{
+    font-family: 'Roboto';
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.atendimento-redes-sociais-caixa-desktop{
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.atendimento-redes-sociais-links-desktop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    font-family: 'Roboto';
+    color: black;
+}
+
+.atendimento-redes-sociais-img-desktop{
+    max-width: 40px;
+    height: auto;
+}
+
+
+/* ----------------------------Tablet---------------------------- */
+
+.atendimento-tablet {
+    display: none;
+}
+
+
+/* ----------------------------Smartphone---------------------------- */
+
+.atendimento-smartphone {
+    display: none;
+}
+
+
+/** ---------------------------- FOOTER ---------------------------- **/
+
+
+/* ----------------------------Desktop---------------------------- */
+
+
+.rodape-desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.rodape-caixa {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.rodape-esquerda {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape-esquerda-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape-esquerda-logo {
+    width: 100%;
+}
+
+.rodape-esquerda-logo img {
+    width: 49.2%;
+}
+
+.rodape-esquerda-links-lista {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+
+.rodape-esquerda-links-lista li a{
+    text-decoration: none;
+    color: white;
+    line-height: 25px;
+}
+
+.rodape-direita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rodape-direita-redes-sociais {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: white;
+    background-color: black;
+}
+
+.rodape-direita-redes-sociais-texto {
+    font-family: 'Roboto';
+    font-size: 25px;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.rodape-direita-redes-sociais img {
+    width: auto;
+    height: auto;
+    max-width: 190px;
+    max-height: 50px;
+}
+
+.rodape-direita-cartoes img {
+    width: 100%;
+}
+
+
+/* ----------------------------Tablet---------------------------- */
+
+.rodape-tablet {
+    display: none;
+}
+
+
+/* ----------------------------Smartphone---------------------------- */
+
+.rodape-smartphone {
+    display: none;
+}
+
+
+/**---------------------------- MEDIA QUERY ---------------------------- **/
+
+@media screen and (min-width: 936px) and (max-width: 1100px){
+
+    /**  ----------------------------Header----------------------------  **/
+
+
+    .header-top {
+      width: 35%;
+    }
+    .header-menu-links {
+      font-size: 20px;
+    }
+
+    .header-menu-carrinho {
+      position: relative;
+      left: 5px;
+    }
+    header{
+      height: 200px;
+    }
+    
+    .header-top-pesquisa form input{
+      font-size: 15px;
+      height: 35px;
+    }
+
+
+    /** ----------------------------Footer---------------------------- **/
+
+
+    .rodape-esquerda-links-lista {
+        font-size: 13px;
+    }
+  
+    .rodape-direita {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    
+  
+    .rodape-direita-redes-sociais-texto {
+        font-size: 17px;
+    }
+  
+    .rodape-direita-cartoes {
+        display: flex;
+        justify-content: flex-end;
+    }
+  
+    .rodape-direita-redes-sociais {
+        height: 60%;
+        width: 80%;
+    }
+  
+    .rodape-direita-redes-sociais img {
+        width: auto;
+        height: auto;
+        max-width: 150px;
+        max-height: 40px;
+    }
+    
+      .rodape-direita-cartoes img {
+        width: 80%;
+    }
+}
+
+
+
+@media screen and (min-width: 576px) and (max-width: 936px) {
+
+    /** ----------------------------Header Tablet---------------------------- **/
+
+    .tablets {
+        background-color: black;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container-grid {
+        width: 84.375%;
+        height: 100%;
+    }
+    
+    .header-tablet {
+        height: 100%;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .header-logo-tablet{
+        width: 35%;
+    }
+    
+    .header-logo-tablet a img{
+        width: 100%;
+    }
+    
+    .header-pesquisa-tablet {
+        width: 50%;
+        height: 35%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .header-pesquisa-tablet form{
+        width: 90%;
+        height: 100%;
+    }
+    
+    .header-pesquisa-tablet form input{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .header-menu-tablet {
+        height: 40%;
+    }
+    
+    .header-menu-tablet img {
+        width: 80%;
+        position: relative;
+        top: 5px;
+    }
+    
+    .header-nav-tablet{
+        display: none;
+        height: 300px;
+        width: 100vw;
+        background-color: black;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        position: absolute;
+        top: 150px;
+        left: 0px;
+        z-index: 2;
+    }
+    
+    .header-nav-tablet a {
+        text-decoration: none;
+        text-transform: capitalize;
+        font-family: 'Roboto';
+        font-size: 18px;
+        color: white;
+    }
+
+    /** ----------------------------Desktop---------------------------- **/
+
+    .desktop {
+        display: none;
+    }
+
+    /** ----------------------------Smartphone---------------------------- **/
+
+    .smartphone {
+        display: none;
+    }
+
+
+
+    /** ----------------------------Atendimento Tablet---------------------------- **/
+
+
+    .atendimento-tablet {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .atendimento-caixa-tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .atendimento-titulo-tablet {
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        font-family: 'Roboto';
+        font-weight: 800;
+        text-decoration: underline;
+        text-transform: capitalize;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    
+    .atendimento-contatos-tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #E5E5E5;
+        width: 100%;
+        border-radius: 40px;
+        margin-bottom: 60px;
+    }
+    
+    .atendimento-contatos-titulo-tablet {
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .atendimento-contatos-item-tablet {
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .atendimento-contatos-ultimo-item-tablet {
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+
+
+
+    .atendimento-formulario-tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #E5E5E5;
+        width: 80%;
+        border-radius: 40px;
+        margin-bottom: 60px;
+    }
+    
+    .atendimento-formulario-titulo-tablet {
+        font-family: 'Roboto';
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .atendimento-formulario-texto-tablet {
+        font-family: 'Roboto';
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    .atendimento-form-tablet {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .atendimento-form-caixa-tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    
+    .atendimento-nome-completo-tablet {
+        display: block;
+        justify-content: center;
+        width: 80%;
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 15px;
+    }
+
+    .atendimente-form-label-tablet {
+        font-family: 'Roboto';
+        font-size: 15px;
+    }
+    
+    .atendimento-duvida-tablet {
+        height: 150px;
+    }
+    
+    #atendimento-formulario-enviar-tablet {
+        width: 80%;
+        margin-bottom: 50px;
+        font-family: 'Roboto';
+        font-size: 15px;
+    }
+    
+    
+    
+    .atendimento-redes-sociais-tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #E5E5E5;
+        width: 80%;
+        border-radius: 40px;
+        margin-bottom: 150px;
+    }
+    
+    .atendimento-redes-sociais-titulo-tablet {
+        font-family: 'Roboto';
+        font-size: 25px;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .atendimento-redes-sociais-texto-tablet{
+        font-family: 'Roboto';
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    
+    .atendimento-redes-sociais-caixa-tablet{
+        width: 100%;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+    }
+    
+    .atendimento-redes-sociais-links-tablet{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-size: 15px;
+        color: black;
+    }
+    
+    .atendimento-redes-sociais-img-tablet{
+        max-width: 30px;
+        height: auto;
+    }
+
+    
+    /* ----------------------------Desktop---------------------------- */
+
+    .atendimento-desktop {
+        display: none;
+    }
+
+
+    /* ----------------------------Smartphone---------------------------- */
+
+    .atendimento-smartphone {
+        display: none;
+    }
+
+
+
+    /** ----------------------------Footer Tablet---------------------------- **/
+    
+    .rodape-tablet {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .rodape-secao-tablet {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .rodape-links-tablet {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .rodape-links-listas-tablet {
+        font-family: 'Roboto';
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        text-transform: capitalize;
+        padding-top: 50px;
+        line-height: 35px;
+    }
+    
+    .rodapes-ancoras-tablet{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .rodape-imagens-tablet {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 15px;
+        padding-bottom: 40px;
+    }
+    
+    .rodape-imagens-redes-sociais-tablet {
+        height: 190px;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 10px;
+        border-color: white;
+        background-color: black;
+    }
+    
+    .rodape-imagens-redes-sociais-tablet {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .rodape-imagens-redes-sociais-texto-tablet {
+        color: white;
+        font-family: 'Roboto';
+        font-size: 20px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    
+    .rodape-redes-sociais-imagem-tablet img {
+        width: 100%;
+    }
+    
+    .rodape-imagens-cartoes {
+        width: 50%;
+    }
+    
+    .rodape-logo-tablet {
+        width: 50%;
+        padding-bottom: 20px;
+    }
+    
+    /** ----------------------------Desktop---------------------------- **/
+    
+    .rodape-desktop {
+        display: none;
+    }
+    
+    /** ----------------------------Smartphone---------------------------- **/
+
+    .rodape-smartphone {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+    /** ----------------------------Header Smartphone---------------------------- **/
+
+    .smartphone {
+        background-color: black;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    
+    .header-smartphone {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .header-logo-smartphone {
+        width: 40%;
+    }
+    
+    .header-logo-smartphone a img, .header-pesquisa-smartphone a img, .header-menu-smartphone a img {
+        width: 100%;
+    }
+
+    .form-pesquisa-smartphone {
+        display: none;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        width: 100vw;
+        background-color: black;
+        justify-content: center;
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        z-index: 2;
+    }
+
+    .formulario-smartphone {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #input-pesquisa-smartphone {
+        font-family: 'Roboto';
+        text-align: center;
+        width: 80%;
+    }
+
+    #botao-pesquisa-smartphone {
+        display:none;
+    }
+
+    .header-menu-img-smartphone {
+        width: 80%;
+    }
+    
+    .header-pesquisa-smartphone {
+        width: 13%;
+    }
+    
+    .header-menu-smartphone {
+        width: 13%;
+    }
+    
+    .header-nav-smartphone{
+        display: none;
+        height: 300px;
+        width: 100vw;
+        background-color: black;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        z-index: 2;
+    }
+    
+    .header-nav-smartphone a {
+        text-decoration: none;
+        text-transform: capitalize;
+        font-family: 'Roboto';
+        font-size: 18px;
+        color: white;
+    }
+
+    /** ----------------------------Desktop---------------------------- **/
+    
+    .desktop {
+        display: none;
+    }
+    
+    /** ----------------------------tablet---------------------------- **/
+
+    .tablets {
+        display: none;
+    }
+
+
+    /** ----------------------------Atendimento Smartphone---------------------------- **/
+
+    .atendimento-smartphone {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .atendimento-caixa-smartphone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .atendimento-titulo-smartphone {
+        display: flex;
+        justify-content: center;
+        font-size: 35px;
+        font-family: 'Roboto';
+        font-weight: 800;
+        text-decoration: underline;
+        text-transform: capitalize;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .atendimento-contatos-texto-smartphone {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .atendimento-contatos-smartphone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #E5E5E5;
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    
+    .atendimento-contatos-titulo-smartphone {
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .atendimento-contatos-item-smartphone {
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    
+    .atendimento-contatos-ultimo-item-smartphone {
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 12px;
+        margin-bottom: 40px;
+    }
+
+
+
+    .atendimento-formulario-smartphone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #E5E5E5;
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    
+    .atendimento-formulario-titulo-smartphone {
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .atendimento-formulario-texto-smartphone {
+        font-family: 'Roboto';
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .atendimento-form-smartphone {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .atendimento-form-caixa-smartphone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    
+    .atendimento-nome-completo-smartphone {
+        display: block;
+        justify-content: center;
+        width: 80%;
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 12px;
+    }
+
+    .atendimente-form-label-smartphone {
+        font-family: 'Roboto';
+        font-size: 12px;
+    }
+    
+    .atendimento-duvida-smartphone {
+        height: 150px;
+    }
+    
+    #atendimento-formulario-enviar-smartphone {
+        width: 80%;
+        margin-bottom: 50px;
+        font-family: 'Roboto';
+        font-size: 12px;
+    }
+    
+    
+    
+    .atendimento-redes-sociais-smartphone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #E5E5E5;
+        width: 100%;
+        margin-bottom: 150px;
+    }
+    
+    .atendimento-redes-sociais-titulo-smartphone {
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .atendimento-redes-sociais-texto-smartphone {
+        font-family: 'Roboto';
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    
+    .atendimento-redes-sociais-caixa-smartphone {
+        width: 100%;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+    }
+    
+    .atendimento-redes-sociais-links-smartphone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-size: 12px;
+        color: black;
+    }
+    
+    .atendimento-redes-sociais-img-smartphone {
+        max-width: 30px;
+        height: auto;
+    }
+    
+
+    /** ----------------------------Desktop---------------------------- **/
+        
+    .atendimento-desktop {
+        display: none;
+    }
+
+    /** ----------------------------tablet---------------------------- **/
+
+    .atendimento-tablet {
+        display: none;
+    }
+
+
+    /** ----------------------------Rodape Smartphone---------------------------- **/
+
+
+    .rodape-smartphone {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rodape-caixa-smartphone {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .rodape-cartoes-smartphone {
+        width: 40%;
+        padding-bottom: 30px;
+    }
+
+    .rodape-links-smartphone {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .rodape-links-smartphone a {
+        font-family: 'Roboto';
+        font-size: 17px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .rodape-redes-sociais-smartphone {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 150px;
+        padding-bottom: 30px;
+    }
+
+    .rodape-redes-sociais-smartphone p {
+        font-family: 'Roboto';
+        font-size: 17px;
+        color: white;
+    }
+
+    .rodape-redes-sociais-smartphone img {
+        width: 30%;
+    }
+
+    .rodape-logo-smartphone {
+        width: 60%;
+    }
+
+    /** ----------------------------Desktop---------------------------- **/
+    
+    .rodape-desktop {
+        display: none;
+    }
+    
+    /** ----------------------------tablet---------------------------- **/
+
+    .rodape-tablet {
+        display: none;
+    }
+
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+
+
+    /** ----------------------------Rodape Smartphone---------------------------- **/
+
+    .rodape-smartphone {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rodape-caixa-smartphone {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .rodape-cartoes-smartphone {
+        width: 40%;
+        padding-bottom: 30px;
+    }
+
+    .rodape-links-smartphone {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 30px;
+        padding-left: 0px;
+    }
+
+    .rodape-links-smartphone a {
+        font-family: 'Roboto';
+        font-size: 12px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .rodape-redes-sociais-smartphone {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 150px;
+        padding-bottom: 30px;
+    }
+
+    .rodape-redes-sociais-smartphone p {
+        font-family: 'Roboto';
+        font-size: 12px;
+        color: white;
+    }
+
+    .rodape-redes-sociais-smartphone img {
+        width: 30%;
+    }
+
+    .rodape-logo-smartphone {
+        width: 60%;
+    }
+
+}

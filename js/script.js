@@ -161,7 +161,7 @@ function cadastrarEmailSmartphone() {
 
 
 
-let linkInstitucional = document.getElementById("rodape-links-institucional-smartphone");
+var linkInstitucional = document.getElementById("rodape-links-institucional-smartphone");
 
 
 function mostarInstitucionalSmartphone() {
@@ -179,7 +179,7 @@ function mostarInstitucionalSmartphone() {
 }
 
 
-let linkInformacoes = document.getElementById("rodape-links-informacoes-smartphone");
+var linkInformacoes = document.getElementById("rodape-links-informacoes-smartphone");
 
 
 function mostarInformacoesSmartphone() {

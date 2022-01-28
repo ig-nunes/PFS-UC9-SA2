@@ -54,3 +54,41 @@ function mostrarNavSmartphone() {
 }
 
 
+
+
+
+
+let linkInstitucional = document.getElementById("rodape-links-institucional-smartphone");
+
+
+function mostarInstitucionalSmartphone() {
+    if (getComputedStyle(linkInstitucional).display == "none") {
+        linkInstitucional.style.display = "flex";
+
+        if (getComputedStyle(linkInformacoes).display == "flex") {
+            linkInformacoes.style.display = "none";
+        }
+
+    }else{
+        linkInstitucional.style.display = "none";
+    }
+
+}
+
+
+let linkInformacoes = document.getElementById("rodape-links-informacoes-smartphone");
+
+
+function mostarInformacoesSmartphone() {
+    if (getComputedStyle(linkInformacoes).display == "none") {
+        linkInformacoes.style.display = "flex";
+
+        if (getComputedStyle(linkInstitucional).display == "flex") {
+            linkInstitucional.style.display = "none";
+        }
+
+    }else{
+        linkInformacoes.style.display = "none";
+    }
+
+}

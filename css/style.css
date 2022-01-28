@@ -2182,13 +2182,16 @@ p {
         justify-content: center;
         align-items: center;
         color: white;
-        font-size: 20px;
-        font-family: 'Roboto';
-        font-weight: 800;
-        text-decoration: underline;
         padding-top: 50px;
         padding-bottom: 50px;
         text-transform: capitalize;
+    }
+
+    .monte-pc-titulo-smartphone h1 {
+        font-size: 30px;
+        font-family: 'Roboto';
+        font-weight: 800;
+        text-decoration: underline;
     }
 
     .monte-pc-opcoes-smartphone {
@@ -2226,8 +2229,8 @@ p {
     }
 
     .monte-pc-gamer-link-smartphone, .monte-pc-estudo-trabalho-link-smartphone {
-        width: 60%;
-        height: 60%;
+        width: 75%;
+        height: 80%;
     }
 
     .monte-pc-gamer-botao-smartphone, .monte-pc-estudo-trabalho-botao-smartphone {
@@ -2239,19 +2242,23 @@ p {
         border-radius: 25px;
         width: 100%;
         height: 100%;
-        text-transform: capitalize;
-        font-size: 15px;
         border-color: black;
         transition: 0.5s;
         cursor: pointer;
     }
 
+    .monte-pc-gamer-link-smartphone button {
+        font-family: 'Roboto';
+        font-size: 15px;
+        text-transform: capitalize;
+    }
+
     .monte-pc-final {
         font-family: 'Roboto';
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 800;
         color: white;
-        text-transform: capitalize;
+        text-transform: uppercase;
         padding-top: 30px;
         padding-bottom: 30px;
         display: flex;
@@ -2295,7 +2302,7 @@ p {
         justify-content: center;
         align-items: center;
         text-transform: capitalize;
-        font-size: 15px;
+        font-size: 17px;
         font-weight: 800;
         font-family: 'Roboto';
     }
@@ -2456,6 +2463,10 @@ p {
         border-color: black;
         margin-bottom: 30px;
     }
+
+    .galeria-produto-imagem-smartphone{
+        width: 65%;
+    }
     
     .galeria-categoria-produto-smartphone a, .galeria-categoria-produto-smartphone p {
         display: flex;
@@ -2531,6 +2542,7 @@ p {
     .cadastro-email-texto-smartphone {
         font-family: 'Roboto';
         font-size: 20px;
+        font-weight: 700;
     }
 
     .cadastro-email-form-smartphone {
@@ -2550,7 +2562,7 @@ p {
         border-style: solid;
         border-width: 3px;
         border-color: black;
-        font-size: 15px;
+        font-size: 18px;
         text-align: center;
     }
 
@@ -2560,7 +2572,7 @@ p {
         border-style: solid;
         border-width: 3px;
         border-color: black;
-        font-size: 15px;
+        font-size: 18px;
         cursor: pointer;
     }
 
@@ -2597,8 +2609,11 @@ p {
         align-items: center;
         padding-top: 40px;
         padding-bottom: 40px;
+    }
+
+    .quem-somos-titulo-smartphone h1 {
         font-family: 'Roboto';
-        font-size: 20px;
+        font-size: 35px;
         font-weight:800;
         text-decoration: underline;
     }
@@ -2615,10 +2630,10 @@ p {
 
     .quem-somos-apresentacao-smartphone p {
         font-family: 'Roboto';
-        font-size: 15px;
+        font-size: 20px;
         text-align: center;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        margin: 40px;
+        
     }
 
     .quem-somos-apresentacao-botao-smartphone {
@@ -2633,7 +2648,7 @@ p {
         border-radius: 25px;
         border: none;
         font-family: 'Roboto';
-        font-size: 15px;
+        font-size: 18px;
         text-decoration: underline;
     }
 
@@ -2650,7 +2665,7 @@ p {
         padding-top: 30px;
         padding-bottom: 50px;
         font-family: 'Roboto';
-        font-size: 25px;
+        font-size: 30px;
         font-weight:800;
         text-decoration: underline;
     }
@@ -2662,7 +2677,7 @@ p {
 
     .quem-somos-localizacao-texto-descricao-smartphone {
         font-family: 'Roboto';
-        font-size: 17px;
+        font-size: 20px;
         text-align: center;
         padding-bottom: 50px;
     }
@@ -2688,6 +2703,7 @@ p {
         display: flex;
         justify-content: center;
         align-items: center;
+        position: relative;
     }
 
     .rodape-caixa-smartphone {
@@ -2700,8 +2716,8 @@ p {
     }
 
     .rodape-cartoes-smartphone {
-        width: 40%;
-        padding-bottom: 30px;
+        width: 60%;
+        padding-bottom: 50px;
     }
 
     .rodape-links-smartphone {
@@ -2709,14 +2725,64 @@ p {
         justify-content: space-evenly;
         align-items: center;
         width: 100%;
-        padding-bottom: 30px;
+        padding-bottom: 50px;
     }
 
     .rodape-links-smartphone a {
+        text-decoration: none;
+    }
+
+    .rodape-links-smartphone a p {
         font-family: 'Roboto';
-        font-size: 17px;
+        font-size: 22px;
         text-decoration: none;
         color: white;
+    }
+
+    #rodape-links-institucional-smartphone {
+        display: none;
+        background-color: black;
+        width: 100%;
+        border-radius: 40px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: white;
+        flex-direction: column;
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #rodape-links-informacoes-smartphone {
+        display: none;
+        background-color: black;
+        width: 100%;
+        border-radius: 40px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: white;
+        flex-direction: column;
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .rodape-nav-links-smartphone {
+        text-decoration: none;
+        color: white;
+        font-family: 'Roboto';
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .link-1-smartphone {
+        margin-top: 25px;
     }
 
     .rodape-redes-sociais-smartphone {
@@ -2763,8 +2829,8 @@ p {
     /** ----------------------------Monte PC Smartphone---------------------------- **/
 
 
-    .monte-pc-titulo-smartphone {
-        font-size: 16px;
+    .monte-pc-titulo-smartphone h1{
+        font-size: 25px;
     }
 
     .monte-pc-gamer-botao-smartphone, .monte-pc-estudo-trabalho-botao-smartphone {
@@ -2772,7 +2838,7 @@ p {
     }
 
     .monte-pc-final {
-        font-size: 14px;
+        font-size: 16px;
     }
 
 
@@ -2784,7 +2850,7 @@ p {
     }
 
     .categorias-destaque-texto-smartphone {
-        font-size: 12px;
+        font-size: 17px;
     }
 
     .categorias-destaque-smartphone a{
@@ -2794,10 +2860,13 @@ p {
     /** ----------------------------Galeria Smartphone---------------------------- **/
 
 
-    
+    .galeria-smartphone {
+        margin-bottom: 30px;
+    }
 
     .galeria-titulo-smartphone h1{
-        font-size: 20px;
+        font-size: 22px;
+        text-align: center;
         padding-bottom: 0px;
     }
 
@@ -2808,7 +2877,7 @@ p {
     }
 
     .galeria-categoria-titulo-smartphone {
-        font-size: 13px;
+        font-size: 16px;
         width: 90%;
         height: 10%;
     }
@@ -2819,7 +2888,7 @@ p {
     }
 
     .galeria-produto-imagem-smartphone {
-        width: 100%;
+        width: 60%;
     }
 
     .galeria-secao-proxima-smartphone a img {
@@ -2828,7 +2897,7 @@ p {
     }
 
     .galeria-categoria-produto-descricao-smartphone, .galeria-categoria-produto-preço-smartphone {
-        font-size: 13px;
+        font-size: 2px;
     }
 
     .galeria-carousel-smartphone {
@@ -2841,7 +2910,7 @@ p {
         text-align: center;
         font-family: 'Roboto';
         font-weight: bold;
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .carousel-categorias-smartphone {
@@ -2862,31 +2931,32 @@ p {
     }
 
     .cadastro-email-texto-smartphone {
-        font-size: 13px;
+        font-size: 18px;
+        text-align: center;
     }
 
     .cadastro-email-form-smartphone form input{
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .btn-cadastro-email-form-smartphone {
-        font-size: 12px;
+        font-size: 15px;
     }
 
 
     /** ----------------------------Quem Somos Smartphone---------------------------- **/
 
 
-    .quem-somos-titulo-smartphone {
-        padding-top: 30px;
-        padding-bottom: 30px;
-        font-size: 15px;
+    .quem-somos-titulo-smartphone h1 {
+        font-size: 25px;
     }
 
     .quem-somos-apresentacao-smartphone p {
-        font-size: 12px;
+        font-size: 17px;
         padding-top: 20px;
         padding-bottom: 20px;
+        text-align: center;
+        margin: 30px;
     }
 
     .quem-somos-apresentacao-botao-smartphone {
@@ -2896,18 +2966,18 @@ p {
     .btn-quem-somos-apresentacao-botao-smartphone {
         width: 130px;
         height: 35px;
-        font-size: 12px;
+        font-size: 16px;
 
     }
 
     .quem-somos-localizacao-smartphone h1 {
         padding-top: 20px;
         padding-bottom: 50px;
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .quem-somos-localizacao-texto-descricao-smartphone {
-        font-size: 12px;
+        font-size: 17px;
     }
 
 
@@ -2931,7 +3001,6 @@ p {
     }
 
     .rodape-cartoes-smartphone {
-        width: 40%;
         padding-bottom: 30px;
     }
 
@@ -2943,9 +3012,9 @@ p {
         padding-bottom: 30px;
     }
 
-    .rodape-links-smartphone a {
+    .rodape-links-smartphone a p {
         font-family: 'Roboto';
-        font-size: 12px;
+        font-size: 16px;
         text-decoration: none;
         color: white;
     }
@@ -2962,7 +3031,7 @@ p {
 
     .rodape-redes-sociais-smartphone p {
         font-family: 'Roboto';
-        font-size: 13px;
+        font-size: 16px;
         color: white;
     }
 

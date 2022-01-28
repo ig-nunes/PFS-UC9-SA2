@@ -150,7 +150,7 @@ p {
 
 .quem-somos-texto-desktop {
     font-family: 'Roboto';
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 50px;
     text-align: center;
 }
@@ -474,7 +474,7 @@ p {
     
     .quem-somos-titulo-tablet {
         font-family: 'Roboto';
-        font-size: 28px;
+        font-size: 40px;
         font-weight: 800;
         text-transform: capitalize;
         text-decoration: underline;
@@ -484,7 +484,7 @@ p {
     
     .quem-somos-texto-tablet {
         font-family: 'Roboto';
-        font-size: 13px;
+        font-size: 18px;
         margin-bottom: 50px;
         text-align: center;
     }
@@ -729,7 +729,7 @@ p {
     
     .quem-somos-titulo-smartphone {
         font-family: 'Roboto';
-        font-size: 25px;
+        font-size: 35px;
         font-weight: 800;
         text-transform: capitalize;
         text-decoration: underline;
@@ -739,7 +739,7 @@ p {
     
     .quem-somos-texto-smartphone {
         font-family: 'Roboto';
-        font-size: 12px;
+        font-size: 16px;
         font-weight: 700;
         margin-bottom: 30px;
         text-align: center;
@@ -766,6 +766,7 @@ p {
         display: flex;
         justify-content: center;
         align-items: center;
+        position: relative;
     }
 
     .rodape-caixa-smartphone {
@@ -778,8 +779,8 @@ p {
     }
 
     .rodape-cartoes-smartphone {
-        width: 40%;
-        padding-bottom: 30px;
+        width: 60%;
+        padding-bottom: 50px;
     }
 
     .rodape-links-smartphone {
@@ -787,14 +788,64 @@ p {
         justify-content: space-evenly;
         align-items: center;
         width: 100%;
-        padding-bottom: 30px;
+        padding-bottom: 50px;
     }
 
     .rodape-links-smartphone a {
+        text-decoration: none;
+    }
+
+    .rodape-links-smartphone a p {
         font-family: 'Roboto';
-        font-size: 17px;
+        font-size: 22px;
         text-decoration: none;
         color: white;
+    }
+
+    #rodape-links-institucional-smartphone {
+        display: none;
+        background-color: black;
+        width: 100%;
+        border-radius: 40px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: white;
+        flex-direction: column;
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #rodape-links-informacoes-smartphone {
+        display: none;
+        background-color: black;
+        width: 100%;
+        border-radius: 40px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: white;
+        flex-direction: column;
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .rodape-nav-links-smartphone {
+        text-decoration: none;
+        color: white;
+        font-family: 'Roboto';
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .link-1-smartphone {
+        margin-top: 25px;
     }
 
     .rodape-redes-sociais-smartphone {
@@ -858,7 +909,6 @@ p {
     }
 
     .rodape-cartoes-smartphone {
-        width: 40%;
         padding-bottom: 30px;
     }
 
@@ -868,12 +918,11 @@ p {
         align-items: center;
         width: 100%;
         padding-bottom: 30px;
-        padding-left: 0px;
     }
 
-    .rodape-links-smartphone a {
+    .rodape-links-smartphone a p {
         font-family: 'Roboto';
-        font-size: 12px;
+        font-size: 16px;
         text-decoration: none;
         color: white;
     }
@@ -890,7 +939,7 @@ p {
 
     .rodape-redes-sociais-smartphone p {
         font-family: 'Roboto';
-        font-size: 12px;
+        font-size: 16px;
         color: white;
     }
 

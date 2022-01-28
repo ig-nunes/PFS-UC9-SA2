@@ -948,7 +948,7 @@ p {
     
     .duvidas-titulo-smartphone {
         font-family: 'Roboto';
-        font-size: 35px;
+        font-size: 40px;
         font-weight: 800;
         text-transform: uppercase;
         text-decoration: underline;
@@ -969,7 +969,7 @@ p {
     
     .duvidas-lista-titulo-smartphone {
         font-family: 'Roboto';
-        font-size: 20px;
+        font-size: 25px;
         font-weight: 700;
         margin-bottom: 30px;
         margin-top: 40px;
@@ -996,7 +996,7 @@ p {
     
     .duvidas-lista-pergunta-smartphone {
         font-family: 'Roboto';
-        font-size: 15px;
+        font-size: 17px;
         font-weight: 700;
         width: 100%;
         text-align: center;
@@ -1009,7 +1009,7 @@ p {
     
     .duvidas-lista-resposta-smartphone {
         font-family: 'Roboto';
-        font-size: 13px;
+        font-size: 16px;
         margin-top: 20px;
         margin-bottom: 20px;
         margin-left: 10px;
@@ -1073,7 +1073,7 @@ p {
     
     .duvidas-lista-atendimento-smartphone {
         font-family: 'Roboto';
-        font-size: 14px;
+        font-size: 16px;
         text-align: center;
         margin-left: 50px;
         margin-right: 50px;
@@ -1102,6 +1102,7 @@ p {
         display: flex;
         justify-content: center;
         align-items: center;
+        position: relative;
     }
 
     .rodape-caixa-smartphone {
@@ -1114,8 +1115,8 @@ p {
     }
 
     .rodape-cartoes-smartphone {
-        width: 40%;
-        padding-bottom: 30px;
+        width: 60%;
+        padding-bottom: 50px;
     }
 
     .rodape-links-smartphone {
@@ -1123,14 +1124,64 @@ p {
         justify-content: space-evenly;
         align-items: center;
         width: 100%;
-        padding-bottom: 30px;
+        padding-bottom: 50px;
     }
 
     .rodape-links-smartphone a {
+        text-decoration: none;
+    }
+
+    .rodape-links-smartphone a p {
         font-family: 'Roboto';
-        font-size: 17px;
+        font-size: 22px;
         text-decoration: none;
         color: white;
+    }
+
+    #rodape-links-institucional-smartphone {
+        display: none;
+        background-color: black;
+        width: 100%;
+        border-radius: 40px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: white;
+        flex-direction: column;
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #rodape-links-informacoes-smartphone {
+        display: none;
+        background-color: black;
+        width: 100%;
+        border-radius: 40px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: white;
+        flex-direction: column;
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .rodape-nav-links-smartphone {
+        text-decoration: none;
+        color: white;
+        font-family: 'Roboto';
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .link-1-smartphone {
+        margin-top: 25px;
     }
 
     .rodape-redes-sociais-smartphone {
@@ -1194,7 +1245,6 @@ p {
     }
 
     .rodape-cartoes-smartphone {
-        width: 40%;
         padding-bottom: 30px;
     }
 
@@ -1204,12 +1254,11 @@ p {
         align-items: center;
         width: 100%;
         padding-bottom: 30px;
-        padding-left: 0px;
     }
 
-    .rodape-links-smartphone a {
+    .rodape-links-smartphone a p {
         font-family: 'Roboto';
-        font-size: 12px;
+        font-size: 16px;
         text-decoration: none;
         color: white;
     }
@@ -1226,7 +1275,7 @@ p {
 
     .rodape-redes-sociais-smartphone p {
         font-family: 'Roboto';
-        font-size: 12px;
+        font-size: 16px;
         color: white;
     }
 
